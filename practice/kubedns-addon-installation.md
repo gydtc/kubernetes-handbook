@@ -38,7 +38,7 @@ kubedns-svc.yaml
 
 预定义的 RoleBinding `system:kube-dns` 将 kube-system 命名空间的 `kube-dns` ServiceAccount 与 `system:kube-dns` Role 绑定， 该 Role 具有访问 kube-apiserver DNS 相关 API 的权限；
 
-```Bash
+```bash
 $ kubectl get clusterrolebindings system:kube-dns -o yaml
 apiVersion: rbac.authorization.k8s.io/v1beta1
 kind: ClusterRoleBinding
@@ -133,7 +133,7 @@ $ kubectl create -f .
 新建一个 Deployment
 
 ``` bash
-$ cat  my-nginx.yaml
+$ cat >> my-nginx.yaml << EOF
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -150,6 +150,7 @@ spec:
         image: harbor-001.jimmysong.io/library/nginx:1.9
         ports:
         - containerPort: 80
+EOF
 $ kubectl create -f my-nginx.yaml
 ```
 

@@ -1,16 +1,18 @@
 # CNCF - 云原生计算基金会简介
 
-CNCF，全称Cloud Native Computing Foundation（云原生计算基金会），口号是**坚持和整合开源技术来让编排容器作为微服务架构的一部分**，其作为致力于云原生应用推广和普及的一支重要力量，不论您是云原生应用的开发者、管理者还是研究人员都有必要了解。
+CNCF，全称Cloud Native Computing Foundation（云原生计算基金会），成立于2015年12月11日，其口号是**坚持和整合开源技术来让编排容器作为微服务架构的一部分**，其作为致力于云原生应用推广和普及的一支重要力量，不论您是云原生应用的开发者、管理者还是研究人员都有必要了解。
 
 CNCF作为一个厂商中立的基金会，致力于Github上的快速成长的开源技术的推广，如Kubernetes、Prometheus、Envoy等，帮助开发人员更快更好的构建出色的产品。
 
 下图是CNCF的全景图。
 
-![CNCF landscape](https://github.com/cncf/landscape/raw/master/landscape/CloudNativeLandscape_latest.png)
+![CNCF landscape](../images/006tNbRwly1fxmx633ymqj31dp0u0kjn.jpg)
+
+该全景图不断更新中，原图请见：https://github.com/cncf/landscape
 
 其中包含了CNCF中托管的项目，还有很多是非CNCF项目。
 
-关于CNCF的使命与组织方式请参考[CNCF宪章](https://www.cncf.io/about/charter/)，概括的讲CNCF的使命包括以下三点：
+关于CNCF的使命与组织方式请参考[CNCF章程](https://www.cncf.io/about/charter/)，概括的讲CNCF的使命包括以下三点：
 
 * 容器化包装。
 * 通过中心编排系统的动态资源管理。
@@ -33,7 +35,7 @@ CNCF这个角色的作用是推广技术，形成社区，开源项目管理与�
 
 成熟度级别（Maturity Level）包括以下三种：
 
-* inception（初级）
+* sandbox（初级）
 * incubating（孵化中）
 * graduated（毕业）
 
@@ -43,7 +45,7 @@ CNCF这个角色的作用是推广技术，形成社区，开源项目管理与�
 
 项目所达到相应成熟度需要满足的条件和投票机制见下图：
 
-![CNCF项目成熟度级别](../images/cncf-graduation-criteria.jpg)
+![CNCF项目成熟度级别](../images/cncf-graduation-criteria-v2.jpg)
 
 ## TOC（技术监督委员会）
 
@@ -52,7 +54,7 @@ TOC（Technical Oversight Committee）作为CNCF中的一个重要组织，它�
 * 定义和维护技术视野
 * 审批新项目加入组织，为项目设定概念架构
 * 接受最终用户的反馈并映射到项目中
-* 调整组件见的访问接口，协调组件之间兼容性
+* 调整组件间的访问接口，协调组件之间兼容性
 
 TOC成员通过选举产生，见[选举时间表](https://github.com/cncf/toc/blob/master/process/election-schedule.md)。
 
@@ -61,10 +63,6 @@ TOC成员通过选举产生，见[选举时间表](https://github.com/cncf/toc/b
 ## 参考
 
 * [https://www.cncf.io](https://www.cncf.io)
-* [https://www.cncf.io/projects/graduation-criteria/](https://www.cncf.io/projects/graduation-criteria/)
 * [https://www.cncf.io/about/charter/](https://www.cncf.io/about/charter/)
 * [https://github.com/cncf/landscape](https://github.com/cncf/landscape)
 * [https://github.com/cncf/toc](https://github.com/cncf/toc)
-
-
-
